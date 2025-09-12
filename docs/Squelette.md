@@ -1,9 +1,9 @@
 # Identification de l'étudiant
 
-- <nomComplet1>Entrer votre nom</nomComplet1>
-- <courriel1>Entrer votre courriel</courriel1>
-- <codeMoodle1>Entrer votre code moodle obtenu à partir de Signets, 2 lettres majuscule avec 5 chiffres</codeMoodle1>
-- <githubAccount1>Entrer l'identifiant de votre compte github</githubAccount1>
+- <nomComplet1>Chahine Benramoul</nomComplet1>
+- <courriel1>chahine.benramoul.1@ens.etsmtl.ca</courriel1>
+- <codeMoodle1>AU81940</codeMoodle1>
+- <githubAccount1>Chahine-Benramoul</githubAccount1>
 
 # Squelette pour un API simple dans Node, Express et TypeScript
 
@@ -157,6 +157,10 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 1. Le Joueur demande à démarrer le jeu en s'identifiant.
 1. Le Joueur demande à lancer les dés.
 1. Le Système affiche le nom du joueur et le résultat de la partie, ainsi que le nombre de parties et le nombre de fois que le Joueur a gagné. Pour un lancer, si le total est égal à sept, le Joueur a gagné. Dans tous les autres cas, il a perdu.
+
+### Redémarrer
+1. Le joueur demande à redémarrer l'application
+2. Le Système termine tous les jeux en cours et redémarre l'application
 
 *Le Joueur répète l'étape 3 jusqu'à ce qu'il ait fini.*
 
