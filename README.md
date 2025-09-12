@@ -444,7 +444,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
   `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` devrait indiquer que tous les tests passent.
 
-- [ ] ajouter le bouton dans `views/index.pug` (PugJS.org)
+- [x] ajouter le bouton dans `views/index.pug` (PugJS.org)
 
   > Facultatif : pour une explication de PUG (anciennement Jade) avec Express, il y a [cette vidéo](https://www.youtube.com/watch?v=DSp9ExFw3Ig).
 
@@ -469,7 +469,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
       button#redemarrer Redémarrer
   ```
 
-- [ ] ajouter le JavaScript pour le bouton afin d'invoquer le nouveau service
+- [x] ajouter le JavaScript pour le bouton afin d'invoquer le nouveau service
 
   Dans `public/lib/main.js` on trouve le code pour les boutons. Après la logique pour traiter le clic sur le bouton *Démarrer* (`demarrer.addEventListener("click", function(){...});`, ajouter une nouvelle logique pour le bouton *Redémarrer* qui fait un `GET` sur `/api/v1/jeu/redemarrerJeu`:
 
