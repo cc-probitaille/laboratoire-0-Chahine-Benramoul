@@ -525,7 +525,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 
 ### 7. Pratiquer ce qui a été appris
 
-- [ ] Modifier le cas d'utilisation *Jouer aux dés* pour que le joueur lance **trois** dés plutôt que deux et la condition pour gagner soit que le *total soit inférieur ou égal à 10*. Il faut passer par toutes les étapes, y compris modifier le MDD, les contrats, les RDCU, les tests et le code. Cependant, cette fois-ci vous devez vous débrouiller, en vous référant à des étapes plus haut.
+- [x] Modifier le cas d'utilisation *Jouer aux dés* pour que le joueur lance **trois** dés plutôt que deux et la condition pour gagner soit que le *total soit inférieur ou égal à 10*. Il faut passer par toutes les étapes, y compris modifier le MDD, les contrats, les RDCU, les tests et le code. Cependant, cette fois-ci vous devez vous débrouiller, en vous référant à des étapes plus haut.
   > ⚠️Certains tests de base du squelette lancés par `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` ne seront plus bons, car ils valident les fonctionnalités du jeu avec **deux** dés.
   > Il faut les modifier pour la nouvelle fonctionnalité avec **trois** dés.
   > Certains de ces tests sont plus difficiles à faire passer, notamment ceux dans `test/core/jeuDeDes.test.ts` qui valident les valeurs retournées par la méthode `brasser()`.
@@ -536,7 +536,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 
 ### 8. Générer le rapport en format PDF
 
-- [ ] Assurez-vous de générer une version PDF de votre fichier `docs/Squelette.md` nommé `docs/lab0.pdf`
+- [x] Assurez-vous de générer une version PDF de votre fichier `docs/Squelette.md` nommé `docs/lab0.pdf`
   > Un menu contextuel devrait vous permettre de réaliser cette tâche dans Visual Studio Code si vous avez installé les bonnes extensions.
   > Il se peut que vous ayez à installer d'autres modules (un _exporter_ pour Chromium). 
   > Il se peut que le fichier soit créé dans un répertoire `out/docs/` aussi avec le nom `Squelette.pdf`.
@@ -546,7 +546,7 @@ Il existe un lien dans la barre de navigation «Classement» pour la page `/stat
 Il peut arriver qu'une équipe soit composée des personnes qui travaillent beaucoup moins que les autres.
 Pour vous sensibiliser aux problèmes typiques et vous outiller à agir rapidement en cas de difficultés, il y a un texte à lire et à intérioriser.
 
-- [ ] Lire le texte [Faire face aux parasites et aux mollassons dans une équipe](https://etsmtl365-my.sharepoint.com/:w:/g/personal/christopher_fuhrman_etsmtl_ca/EcmQ4mhrCt5Ml9FUOiAPMmQBqtH3Z65GXrMLngDaeRCP8g?e=8JXrlf)
+- [x] Lire le texte [Faire face aux parasites et aux mollassons dans une équipe](https://etsmtl365-my.sharepoint.com/:w:/g/personal/christopher_fuhrman_etsmtl_ca/EcmQ4mhrCt5Ml9FUOiAPMmQBqtH3Z65GXrMLngDaeRCP8g?e=8JXrlf)
 - [ ] Écrire une réponse dans le fichier `docs/experience-parasites-mollassons.md` du dépôt suivant les directives dans ce fichier.
 
 ### 10. Vérifier la correction automatique
@@ -566,8 +566,8 @@ Vous n'aurez pas de rétroaction individuelle après la date de remise, alors si
 
 ### 11. Remettre (anglais *commit*) tous les changements sur la branche `master`
 
-- [ ] À l'aide de Zoom ou de tout autre outil d'enregistrement vidéo, enregistrez une démonstration du fonctionnement de l'interface utilisateur avec au moins 2 joueurs.  Sauvegarder le résultat dans le fichier **demo.mp4** et placer ce fichier dans le même répertoire que README.md.
-- [ ] Faire une remise de la solution du projet (GitHub) incluant votre réponse dans `docs/experience-parasites-mollassons.md`
+- [x] À l'aide de Zoom ou de tout autre outil d'enregistrement vidéo, enregistrez une démonstration du fonctionnement de l'interface utilisateur avec au moins 2 joueurs.  Sauvegarder le résultat dans le fichier **demo.mp4** et placer ce fichier dans le même répertoire que README.md.
+- [x] Faire une remise de la solution du projet (GitHub) incluant votre réponse dans `docs/experience-parasites-mollassons.md`
 
 **Félicitations!** Vous avez réussi les défis technologiques nécessaires pour être performant dans les laboratoires de LOG210! Ce tutoriel vous sera sûrement utile pendant le développement du projet itératif à suivre, car il y a des [liens pour la documentation des technologies différentes](#technologies-vues-dans-cet-exercice).
 

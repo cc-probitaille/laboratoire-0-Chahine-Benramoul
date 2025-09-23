@@ -13,4 +13,11 @@ Plus tard dans le semestre, **si votre équipe porte un manque de performance à
 
 Mettez votre réponse (environ 300 mots) ci-dessous:
 
+J'ai eu à être en équipe avec 3 personnes dans un devoir de math. Moi et un autre coéquipier avons commencé le devoir 3 semaines avant la remise et nous nous étions rencontrés plusieurs fois, mais la troisième personne était toujours absente et ne venait pas au cours sauf aux évaluations. J'ai commencé à discuter avec mon coéquipier à propos de cette personne qui ne répondait pas aux messages que j'envoyais. La veille de la remise du devoir, cette personne a envoyé un numéro d'exercice 4h avant la remise. C'était sa seule contribution, ce qui nous a rendus frustrés, mais il était trop tard pour parler avec le professeur.
+Il était comme un parasite, car nous avons dû faire tout le travail vu qu'il ne répondait pas. Notre équipe a absorbé, nous avons travaillé avec dévouement jusqu'au bout. Une fois qu'il a remis son numéro, il a disparu et n'a plus répondu à mes questions sur ses démarches.
+Nous aurions dû réfléchir quelques semaines plus tôt puis discuter avec le prof et envoyer des courriels avec le professeur en copie.
+
+Une autre expérience que j'ai eue était avec un mollasson. Pour un projet de développement professionnel, il fallait préparer une présentation et faire la recherche ainsi qu'écrire le texte.
+Nous étions 3 personnes, la veille de la remise, le mollasson n'avait pas encore accompli sa partie. Il s'y était attardé en soirée, cependant, il s'était endormi et nous avons dû finir le travail tout en essayant de le réveiller. Notre équipe avait mal géré son temps, en effet, nous aurions pu éviter de faire sa partie si nous avions dédié une journée plus tôt, une séance pour clore le travail. Le jour de la présentation, le mollasson a compensé son manque d'assiduité en parlant plus longtemps pendant la présentation, mais il était visiblement mal préparé ; il ne faisait que lire les diapositives.
+
 ---
