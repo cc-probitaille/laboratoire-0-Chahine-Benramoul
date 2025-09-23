@@ -159,7 +159,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 1. Le Système affiche le nom du joueur et le résultat de la partie, ainsi que le nombre de parties et le nombre de fois que le Joueur a gagné. Pour un lancer, si le total est égal à sept, le Joueur a gagné. Dans tous les autres cas, il a perdu.
 
 ### Redémarrer
-1. Le joueur demande à redémarrer l'application
+1. Le Joueur demande à redémarrer l'application
 2. Le Système termine tous les jeux en cours et redémarre l'application
 
 *Le Joueur répète l'étape 3 jusqu'à ce qu'il ait fini.*
@@ -174,6 +174,9 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 ### Modèle du domaine
 
 ![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/mdd.puml)
+
+### Modèle du domaine avec trois dés
+![Diagramme de classe du Modèle du domaine avec trois dés](modeles/mdd/MDD.svg)
 
 ### Diagramme de séquence système (DSS)
 
@@ -199,12 +202,18 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - d1.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - d2.valeur est devenue un nombre entier aléatoire entre 1 et 6
+- d3.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - j.nbLancers a été incrémenté sur une base de correspondance avec nom
-- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur et d2.valeur est égale à 7
+- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur, d2.valeur, d3.valeur est plus petite ou égale à 10
 
 **RDCU**
 
 ![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+
+**RDCU avec trois dés**
+
+![Diagramme de séquence avec trois dés, demarrerJeu](modeles/rdcu-jouer/rdcu-jouer.svg)
+
 
 #### Opération: `terminerJeu(nom:String)`
 
